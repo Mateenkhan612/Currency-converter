@@ -1,0 +1,52 @@
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+                url(stock-1863880_1280.jpg);
+        }
+
+        #converter {
+            margin: 160px auto;
+            max-width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: white;
+        }
+        input {
+            width: 180px;
+            border-radius: 10px;
+            height: 24px;
+            text-align: center;
+        }
+        input:focus{
+            border: 2px solid white;
+            transition: 0.5s;
+            background-color: transparent;
+            color: white;
+        }
+        .btn{
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            transition: 0.5s;
+        }
+        select{
+            width: 80px;
+            border-radius: 10px;
+            height: 25px;
+            text-align: center;
+            cursor: pointer;
+        }
+        select:hover{
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            transition: 0.5s;
+        }
